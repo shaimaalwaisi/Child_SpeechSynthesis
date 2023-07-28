@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+
+  <head>
+    <title>fast_arabic_tts</title>
+      <article>
+        <header>
+		
+		
+		<p align="left"><img width="25%" src="img/BME.jpg" /></p>
+		
+		
+  
+<p><br> 
+</br></p>
+	
+	<h1>Advancing Limited Data Text-to-Speech Synthesis: Non-Autoregressive Transformer for High-Quality Parallel Synthesis</h1>
+        </header>
+      </article>
+	  <p>  </p>
+	  
+	  <p><b>Authors:</b> <a href="https://malradhi.github.io/" target="_blank">Mohammed Salah Al-Radhi</a>, Omnia Ibrahim, Ali Raheem Mandeel, Tamás Gábor Csapó, Géza Németh</p>
+	  <p> 
+	  </p>  
+<p> 
+</p>
+
+<!-- <h4>Datasets</h4>
+<li><a href="http://en.arabicspeechcorpus.com/" target="_blank">Arabic Speech Corpus</a></li>
+<li>1813 .wav files, .lab files, and .TextGrid files</li> -->
+
+
+<!-- <br />  -->
+
+<p><b>Inference:</b> <a href="https://drive.google.com/file/d/1zPUjtBUbaViMKayEy6-FVvz3qIaRfpKh/view?usp=sharing" target="_blank">pretrained model</a></p>
+
+<p align="left"><img width="25%" src="img/Arabic_TTS.jpg" /></p>
+
+
+
+<hr>
+
+<!-- 333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333 -->
+
+<!-- Female to Male -->
+<!-- p229_vc_p232 -->
+
+<!-- <h1 style="text-align:center;color:blue"; style="font-family:verdana;">1) Male Speaker </h1> -->
+
+<h2>Fast Arabic Single-Speaker TTS</h2>
+
+
+<tr><td colspan="2"><span><b>Phoneme Sequence #1:</b> "lakin~a diraAsatahumo - >a^abotato >an~a Alomu$okilapa bimiSora - layosato faqaTo fiy kam~iy~api AlT~aEaAmi"</span></td></tr>
+<br />
+<br />
+
+
+<div>	
+	
+      </table>
+      <table class="table">
+	<thead>
+	  <tr>
+	    <th>Natural</th>
+	    <th>Tacotron_WaveGlow</th>
+		<th>FastSp2_HiFi</th>
+		<th>FastSp2_PWG</th>
+	  </tr>
+	</thead>
+	<tbody>
+	  <tr>
+	    <td>
+	      <audio controls="">
+		<source src="wav/01_Natural/1064.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="wav/02_Tacotron_WaveGlow/1064.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="wav/03_FastSpeech2/1064.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="wav/04_Parallel_WaveGAN/1064.wav" type="audio/wav">
+	      </audio>
+	    </td>
+<!-- 	    <td>
+	      <audio controls="">
+		<source src="wav/awb/arctic_a0208_cwt.wav" type="audio/wav">
+	      </audio>
+	    </td> -->				
+	  </tr>
+	</tbody>
+      </table>
+	</div>
+	  
+<br />
+<br />	  
+<tr><td colspan="2"><span><b>Phoneme Sequence #2:</b> "yasotaDiyfu maEohadu AloEaAlami AloEarabiy~i fiy baAriysa - maEoriDAF biEunowaAni - kaAna yaA makaAn - qiTaAru Al$~aroqi Als~ariyEu"</span></td></tr>
+<br />
+<br />
+
+<div>
+	  
+      <table class="table">
+	<thead>
+	  <tr>
+	    <th>Natural</th>
+	    <th>Tacotron_WaveGlow</th>
+		<th>FastSp2_HiFi</th>
+		<th>FastSp2_PWG</th>
+	  </tr>
+	</thead>
+	<tbody>
+	  <tr>
+	    <td>
+	      <audio controls="">
+		<source src="wav/01_Natural/0407.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="wav/02_Tacotron_WaveGlow/0407.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="wav/03_FastSpeech2/0407.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="wav/04_Parallel_WaveGAN/0407.wav" type="audio/wav">
+	      </audio>
+	    </td>
+<!-- 	    <td>
+	      <audio controls="">
+		<source src="wav/awb/arctic_a0208_cwt.wav" type="audio/wav">
+	      </audio>
+	    </td> -->				
+	  </tr>
+	</tbody>
+      </table>
+	</div>
+
+<br />
+<br />	  
+<tr><td colspan="2"><span><b>Phoneme Sequence #3:</b> "AloHimoDiy~aAtu gany~apN bimukawonaAtK SiH~iy~apK lijisomi AloinosaAni"</span></td></tr>
+<br />
+<br />
+
+<div> 
+     <table class="table">
+	<thead>
+	  <tr>
+	    <th>Natural</th>
+	    <th>Tacotron_WaveGlow</th>
+		<th>FastSp2_HiFi</th>
+		<th>FastSp2_PWG</th>
+	  </tr>
+	</thead>
+	<tbody>
+	  <tr>
+	    <td>
+	      <audio controls="">
+		<source src="wav/01_Natural/0613.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="wav/02_Tacotron_WaveGlow/0613.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="wav/03_FastSpeech2/0613.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="wav/04_Parallel_WaveGAN/0613.wav" type="audio/wav">
+	      </audio>
+	    </td>
+<!-- 	    <td>
+	      <audio controls="">
+		<source src="wav/awb/arctic_a0208_cwt.wav" type="audio/wav">
+	      </audio>
+	    </td> -->				
+	  </tr>
+	</tbody>
+      </table>
+	</div>
+
+
+<br />
+<br />	  
+<tr><td colspan="2"><span><b>Phoneme Sequence #4:</b> "watu&ak~idu EaAlimapu Aln~afosi >an~a Alo>asobaAba AlomanoTiqiy~apa AlomuHaf~izapa EalaY mumaArasapi Alr~iy~aADapi - laA takofiy waHodahaA"</span></td></tr>
+<br />
+<br />
+
+<div>
+      <table class="table">
+	<thead>
+	  <tr>
+	    <th>Natural</th>
+	    <th>Tacotron_WaveGlow</th>
+		<th>FastSp2_HiFi</th>
+		<th>FastSp2_PWG</th>
+	  </tr>
+	</thead>
+	<tbody>
+	  <tr>
+	    <td>
+	      <audio controls="">
+		<source src="wav/01_Natural/0409.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="wav/02_Tacotron_WaveGlow/0409.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="wav/03_FastSpeech2/0409.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="wav/04_Parallel_WaveGAN/0409.wav" type="audio/wav">
+	      </audio>
+	    </td>
+<!-- 	    <td>
+	      <audio controls="">
+		<source src="wav/awb/arctic_a0208_cwt.wav" type="audio/wav">
+	      </audio>
+	    </td> -->				
+	  </tr>
+	</tbody>
+      </table>
+	</div>
+
+
+<br />
+<br />	  
+<tr><td colspan="2"><span><b>Phoneme Sequence #5:</b> "ak~ada AlokaAtibu waAln~aAqidu"</span></td></tr>
+<br />
+<br />
+
+
+<div>
+      <table class="table">
+	<thead>
+	  <tr>
+	    <th>Natural</th>
+	    <th>Tacotron_WaveGlow</th>
+		<th>FastSp2_HiFi</th>
+		<th>FastSp2_PWG</th>
+	  </tr>
+	</thead>
+	<tbody>
+	  <tr>
+	    <td>
+	      <audio controls="">
+		<source src="wav/01_Natural/0980.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="wav/02_Tacotron_WaveGlow/0980.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="wav/03_FastSpeech2/0980.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="wav/04_Parallel_WaveGAN/0980.wav" type="audio/wav">
+	      </audio>
+	    </td>
+<!-- 	    <td>
+	      <audio controls="">
+		<source src="wav/awb/arctic_a0208_cwt.wav" type="audio/wav">
+	      </audio>
+	    </td> -->				
+	  </tr>
+	</tbody>
+      </table>
+	</div>
+	 
+	 
+<hr>
+
+<h2>Visualization</h2>
+The image below demonstrates spectrogram visualization and pitch contours extracted from synthesized speech samples. Top-left: Ground-truth; Top-right: Tacotron2; Bottom-right: FastSp2-HiFi; and Bottom-left: Developed FastSp2-PWG. 
+
+<p align="left"><img width="50%" src="img/spectrogram.png" /></p>
+
+<hr>
+
+
+</table>
+
+	
+  </head>
+</html>
