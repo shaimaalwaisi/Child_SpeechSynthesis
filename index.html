@@ -8,7 +8,7 @@
         <header>
 		
 		
-		<p align="left"><img width="25%" src="img/BME.jpg" /></p>
+		<p align="left"><img width="25%" src="img/bme.jpg" /></p>
 		
 		
   
@@ -48,10 +48,10 @@
 
 <!-- <h1 style="text-align:center;color:blue"; style="font-family:verdana;">1) Male Speaker </h1> -->
 
-<h2>Fast Arabic Single-Speaker TTS</h2>
+<h2>Child_Speech_Synthesis</h2>
 
 
-<tr><td colspan="2"><span><b>Phoneme Sequence #1:</b> "lakin~a diraAsatahumo - >a^abotato >an~a Alomu$okilapa bimiSora - layosato faqaTo fiy kam~iy~api AlT~aEaAmi"</span></td></tr>
+<tr><td colspan="2"><span><b>Text:</b> "I THINK WHAT IS BEING SHOWN IS THE SYSTEM FOR THE HEART"</span></td></tr>
 <br />
 <br />
 
@@ -62,32 +62,32 @@
       <table class="table">
 	<thead>
 	  <tr>
-	    <th>Natural</th>
-	    <th>Tacotron_WaveGlow</th>
-		<th>FastSp2_HiFi</th>
-		<th>FastSp2_PWG</th>
+	    <th>Ground_truth</th>
+	    <th>AutoVocoder</th>
+		<th>ParallelWavGan</th>
+		<th>WorldVoc</th>
 	  </tr>
 	</thead>
 	<tbody>
 	  <tr>
 	    <td>
 	      <audio controls="">
-		<source src="wav/01_Natural/1064.wav" type="audio/wav">
+		<source src="Ground_truth/Boy/013boy.wav" type="audio/wav">
 	      </audio>
 	    </td>
 	    <td>
 	      <audio controls="">
-		<source src="wav/02_Tacotron_WaveGlow/1064.wav" type="audio/wav">
+		<source src="AutoVocoder/Boy/013boyAuto.wav" type="audio/wav">
 	      </audio>
 	    </td>
 	    <td>
 	      <audio controls="">
-		<source src="wav/03_FastSpeech2/1064.wav" type="audio/wav">
+		<source src="ParallelWavGan/Boy/013boyPwavGan.wav" type="audio/wav">
 	      </audio>
 	    </td>
 	    <td>
 	      <audio controls="">
-		<source src="wav/04_Parallel_WaveGAN/1064.wav" type="audio/wav">
+		<source src="WorldVoc/Boy/013boyPw.wav" type="audio/wav">
 	      </audio>
 	    </td>
 <!-- 	    <td>
@@ -102,7 +102,8 @@
 	  
 <br />
 <br />	  
-<tr><td colspan="2"><span><b>Phoneme Sequence #2:</b> "yasotaDiyfu maEohadu AloEaAlami AloEarabiy~i fiy baAriysa - maEoriDAF biEunowaAni - kaAna yaA makaAn - qiTaAru Al$~aroqi Als~ariyEu"</span></td></tr>
+<tr><td colspan="2"><span><b>Text:</b> "THESE CIRCUITS ARE CLOSED AND THE LIGHT BULB SHOULD BE LIGHTING UP BUT FOR SOME REASON IT'S NOT <BREATH>
+"</span></td></tr>
 <br />
 <br />
 
@@ -111,32 +112,32 @@
       <table class="table">
 	<thead>
 	  <tr>
-	    <th>Natural</th>
-	    <th>Tacotron_WaveGlow</th>
-		<th>FastSp2_HiFi</th>
-		<th>FastSp2_PWG</th>
+	    <th>Ground_truth</th>
+	    <th>AutoVocoder</th>
+		<th>ParallelWavGan</th>
+		<th>WorldVoc</th>
 	  </tr>
 	</thead>
 	<tbody>
 	  <tr>
 	    <td>
 	      <audio controls="">
-		<source src="wav/01_Natural/0407.wav" type="audio/wav">
+		<source src="Ground_truth/Boy/012boy.wav" type="audio/wav">
 	      </audio>
 	    </td>
 	    <td>
 	      <audio controls="">
-		<source src="wav/02_Tacotron_WaveGlow/0407.wav" type="audio/wav">
+		<source src="AutoVocoder/Boy/012boyAuto.wav" type="audio/wav">
 	      </audio>
 	    </td>
 	    <td>
 	      <audio controls="">
-		<source src="wav/03_FastSpeech2/0407.wav" type="audio/wav">
+		<source src="ParallelWavGan/Boy/012boyPwavGan.wav" type="audio/wav">
 	      </audio>
 	    </td>
 	    <td>
 	      <audio controls="">
-		<source src="wav/04_Parallel_WaveGAN/0407.wav" type="audio/wav">
+		<source src="WorldVoc/Boy/012boyPw.wav" type="audio/wav">
 	      </audio>
 	    </td>
 <!-- 	    <td>
@@ -151,89 +152,41 @@
 
 <br />
 <br />	  
-<tr><td colspan="2"><span><b>Phoneme Sequence #3:</b> "AloHimoDiy~aAtu gany~apN bimukawonaAtK SiH~iy~apK lijisomi AloinosaAni"</span></td></tr>
-<br />
-<br />
-
-<div> 
-     <table class="table">
-	<thead>
-	  <tr>
-	    <th>Natural</th>
-	    <th>Tacotron_WaveGlow</th>
-		<th>FastSp2_HiFi</th>
-		<th>FastSp2_PWG</th>
-	  </tr>
-	</thead>
-	<tbody>
-	  <tr>
-	    <td>
-	      <audio controls="">
-		<source src="wav/01_Natural/0613.wav" type="audio/wav">
-	      </audio>
-	    </td>
-	    <td>
-	      <audio controls="">
-		<source src="wav/02_Tacotron_WaveGlow/0613.wav" type="audio/wav">
-	      </audio>
-	    </td>
-	    <td>
-	      <audio controls="">
-		<source src="wav/03_FastSpeech2/0613.wav" type="audio/wav">
-	      </audio>
-	    </td>
-	    <td>
-	      <audio controls="">
-		<source src="wav/04_Parallel_WaveGAN/0613.wav" type="audio/wav">
-	      </audio>
-	    </td>
-<!-- 	    <td>
-	      <audio controls="">
-		<source src="wav/awb/arctic_a0208_cwt.wav" type="audio/wav">
-	      </audio>
-	    </td> -->				
-	  </tr>
-	</tbody>
-      </table>
-	</div>
-
-
-<br />
-<br />	  
-<tr><td colspan="2"><span><b>Phoneme Sequence #4:</b> "watu&ak~idu EaAlimapu Aln~afosi >an~a Alo>asobaAba AlomanoTiqiy~apa AlomuHaf~izapa EalaY mumaArasapi Alr~iy~aADapi - laA takofiy waHodahaA"</span></td></tr>
+<tr><td colspan="2"><span><b>Text:</b> "I THINK IT WOULD GET BRIGHTER TO BREAK THE BULB OR IT WOULDN'T WORK"</span></td></tr>
 <br />
 <br />
 
 <div>
+	  
       <table class="table">
 	<thead>
 	  <tr>
-	    <th>Natural</th>
-	    <th>Tacotron_WaveGlow</th>
-		<th>FastSp2_HiFi</th>
-		<th>FastSp2_PWG</th>
+	    <th>Ground_truth</th>
+	    <th>AutoVocoder</th>
+		<th>ParallelWavGan</th>
+		<th>WorldVoc</th>
 	  </tr>
 	</thead>
 	<tbody>
 	  <tr>
 	    <td>
 	      <audio controls="">
-		<source src="wav/01_Natural/0409.wav" type="audio/wav">
+		<source src="Ground_truth/Girl/030.wav" type="audio/wav">
 	      </audio>
 	    </td>
 	    <td>
 	      <audio controls="">
-		<source src="wav/02_Tacotron_WaveGlow/0409.wav" type="audio/wav">
+		<source src="AutoVocoder/Girl/030Auto.wav" type="audio/wav">
 	      </audio>
 	    </td>
 	    <td>
 	      <audio controls="">
-		<source src="wav/03_FastSpeech2/0409.wav" type="audio/wav">
+		<source src="ParallelWavGan/Girl/030PwavGan.wav" type="audio/wav">
 	      </audio>
 	    </td>
 	    <td>
 	      <audio controls="">
-		<source src="wav/04_Parallel_WaveGAN/0409.wav" type="audio/wav">
+		<source src="WorldVoc/Girl/030Pw.wav" type="audio/wav">
 	      </audio>
 	    </td>
 <!-- 	    <td>
@@ -249,41 +202,41 @@
 
 <br />
 <br />	  
-<tr><td colspan="2"><span><b>Phoneme Sequence #5:</b> "ak~ada AlokaAtibu waAln~aAqidu"</span></td></tr>
+<tr><td colspan="2"><span><b>Text:</b> "I MEAN LIKE IT POWERS MOSTLY EVERYTHING"</span></td></tr>
 <br />
 <br />
-
 
 <div>
+	  
       <table class="table">
 	<thead>
 	  <tr>
-	    <th>Natural</th>
-	    <th>Tacotron_WaveGlow</th>
-		<th>FastSp2_HiFi</th>
-		<th>FastSp2_PWG</th>
+	    <th>Ground_truth</th>
+	    <th>AutoVocoder</th>
+		<th>ParallelWavGan</th>
+		<th>WorldVoc</th>
 	  </tr>
 	</thead>
 	<tbody>
 	  <tr>
 	    <td>
 	      <audio controls="">
-		<source src="wav/01_Natural/0980.wav" type="audio/wav">
+		<source src="Ground_truth/Girl/007.wav" type="audio/wav">
 	      </audio>
 	    </td>
 	    <td>
 	      <audio controls="">
-		<source src="wav/02_Tacotron_WaveGlow/0980.wav" type="audio/wav">
+		<source src="AutoVocoder/Girl/007Auto.wav" type="audio/wav">
 	      </audio>
 	    </td>
 	    <td>
 	      <audio controls="">
-		<source src="wav/03_FastSpeech2/0980.wav" type="audio/wav">
+		<source src="ParallelWavGan/Girl/007PwavGan.wav" type="audio/wav">
 	      </audio>
 	    </td>
 	    <td>
 	      <audio controls="">
-		<source src="wav/04_Parallel_WaveGAN/0980.wav" type="audio/wav">
+		<source src="WorldVoc/Girl/007Pw.wav" type="audio/wav">
 	      </audio>
 	    </td>
 <!-- 	    <td>
@@ -295,16 +248,19 @@
 	</tbody>
       </table>
 	</div>
+
+
+<br />
+<br />	  
+
+<br />
+<br />
+
+
+
 	 
 	 
-<hr>
 
-<h2>Visualization</h2>
-The image below demonstrates spectrogram visualization and pitch contours extracted from synthesized speech samples. Top-left: Ground-truth; Top-right: Tacotron2; Bottom-right: FastSp2-HiFi; and Bottom-left: Developed FastSp2-PWG. 
-
-<p align="left"><img width="50%" src="img/spectrogram.png" /></p>
-
-<hr>
 
 
 </table>
