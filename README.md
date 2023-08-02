@@ -1,5 +1,6 @@
 # Child_SpeechSynthesis
 Automated Child Voice Generation: Methodology and Implementation
+
 Authors: Shaimaa Alwaisi, Mohammed Salah Al-Radhi, Géza Németh
 
 An overview of proposed child speech synthesis architectures. (a) Generator BIGVGAN architecture, 
